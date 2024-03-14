@@ -1,0 +1,27 @@
+@import url("reset.css");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  color: #00000f;
+}
+p {
+  color: darkblue;
+}
+.menu__item {
+  color: purple;
+}
+#title {
+  color: red;
+}
+[class*="container"] > * {
+	color: red;
+}
+#block-1 p {
+    color: green;
+}
+h2.title {
+    color: springgreen;
+}
