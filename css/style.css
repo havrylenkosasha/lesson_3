@@ -16,12 +16,35 @@ p {
 #title {
   color: red;
 }
-[class*="container"] > * {
-	color: red;
+[class*="container"] {
+  color: red;
 }
 #block-1 p {
-    color: green;
+  color: green;
 }
 h2.title {
-    color: springgreen;
+  color: springgreen;
+}
+.main__title.title {
+  color: gold;
+}
+div,
+p,
+.menu__item {
+  color: aquamarine;
+}
+.main div {
+  color: hotpink;
+}
+.main .title {
+  color: bisque;
+}
+#block-1 ~ p {
+  color: pink;
+}
+.block h2 + p {
+  color: darkorchid;
+}
+.main__containet > div {
+  color: azure;
 }
